@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    width: 1440px;
+    height: 100vh;
+}
+main{
+    background-color: #396967;
+}
+
+#navbar .container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #65B1AD;
+    height: 85px;
+}
+#navbar .container .btnContatos, .btnProjetos{
+    margin: 0 8px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #333636;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.titulo{
+    text-align: center;
+    color: #65B1AD;
+    padding-bottom: 15px;
+    font-size: 40px;
+    
+}
+
+p{
+    color: #65B1AD;
+    text-align: justify;
+    padding: 0 10px;
+    font-size: 19px;
+}
+
+.sobreMim .container{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    clear: left;
+}
+
+.sobreMim .perfil{
+    width: 20%;
+    border: 3px #65B1AD solid;
+    border-radius: 8px;
+    float: left;
+    margin: 0 10px 10px 10px;
+}
+.sobreMim .sobre{
+    width: 800px;
+    border-right: 3px #65B1AD solid;
+    background-color: #333636;
+    border-radius: 8px 0 0 8px;
+    justify-content: center;
+}
+
+.sobreMim .skills{
+    width: 400px;
+    background-color: #333636;
+    border-radius: 0 8px 8px 0;
+}
+
+.projetos .container{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 85px;
+}
+
+.projetos .projeto{
+    width: 1200px;
+    height: 350px;
+    background-color: #333636;
+    border-radius: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #65B1AD;
+    height: 85px;
+}
+
+footer a{
+    padding-left: 5px; 
+}
+
+footer a:first-child{
+    padding-left: 0; 
+}
