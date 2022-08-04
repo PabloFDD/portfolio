@@ -23,12 +23,11 @@ main{
     background-color: #65B1AD;
     height: 85px;
 }
-#navbar .container .btnContatos, .btnProjetos{
+#navbar .container .btnContato, .btnProjetos{
     margin: 0 8px;
     padding: 8px;
     border-radius: 5px;
-    background-color: #333636;
-    color: #ccc;
+    color: #333636;
     cursor: pointer;
 }
 
@@ -75,11 +74,36 @@ p{
     border-radius: 0 8px 8px 0;
 }
 
+.skill-tec{
+    padding: 0 0 10px 10px;
+    display: flex;
+    
+}
+
+.skill-tec .title{
+    color: #65B1AD;
+}
+
+.skill-tec .icon{
+    width: 56px;
+}
+
+.skill-tec .bar{
+    border: 3px #000 solid;
+    height: 20px;
+    background-color: #FFF;
+}
+
+.skill-tec .bar::-webkit-progress-value{
+    background-color: #65B1AD;
+}
+
 .projetos .container{
     display: flex;
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 85px;
+    
 }
 
 .projetos .projeto{
@@ -87,6 +111,30 @@ p{
     height: 350px;
     background-color: #333636;
     border-radius: 8px;
+    
+}
+
+.projetos .wrapper-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto .logo{
+    width: 150px;
+    border-radius: 8px;
+}
+
+.figure{
+    
+}
+.figure figcaption{
+    text-align: center;
+    color:#65B1AD;
+    font-weight: bold;
+}
+
+a, a:active{
+    text-decoration: none;
 }
 
 footer{
