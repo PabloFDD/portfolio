@@ -1,37 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body{
-    margin: 0 auto;
-    width: 1440px;
-    height: 100vh;
-}
-main{
-    background-color: #396967;
-}
-
-#navbar .container{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    background-color: #65B1AD;
-    height: 85px;
-}
-#navbar .container .btnContato, .btnProjetos, .btnSobreMim{
-    margin: 0 8px;
-    padding: 8px;
-    border-radius: 5px;
-    color: #333636;
-    cursor: pointer;
-}
-
-.titulo{
+.main-title{
     text-align: center;
     color: #65B1AD;
     padding-bottom: 15px;
@@ -39,139 +6,14 @@ main{
     
 }
 
-p{
+.main-paragraph{
     color: #65B1AD;
     text-align: justify;
     padding: 0 10px;
     font-size: 19px;
 }
 
-.sobreMim .container{
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-    clear: left;
-}
-
-.sobreMim .perfil{
-    width: 20%;
-    border: 3px #65B1AD solid;
-    border-radius: 8px;
-    float: left;
-    margin: 0 10px 10px 10px;
-}
-.sobreMim .sobre{
-    width: 800px;
-    border-right: 3px #65B1AD solid;
-    background-color: #333636;
-    border-radius: 8px 0 0 8px;
-    justify-content: center;
-}
-
-.sobreMim .skills{
-    width: 400px;
-    background-color: #333636;
-    border-radius: 0 8px 8px 0;
-}
-
-.skill-tec{
-    padding: 0 0 15px 10px;
-    display: flex;
-}
-
-.skill-tec .title{
-    color: #65B1AD;
-}
-
-.skill-tec .icon{
-    width: 56px;
-}
-
-.skill-tec .bar{
-    border: 3px #000 solid;
-    height: 30px;
-    background-color: #FFF;
-    width: 200px;
-}
-
-.skill-tec .bar::-webkit-progress-value{
-    background-color: #65B1AD;
-}
-
-.projetos .container{
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 85px;
-    
-}
-
-.projetos .projeto{
-    width: 1200px;
-    height: 350px;
-    background-color: #333636;
-    border-radius: 8px;
-    
-}
-
-.projetos .wrapper-card{
-    display: flex;
-    justify-content: space-around;
-}
-
-.projeto .logo{
-    width: 150px;
-    border-radius: 8px;
-}
-
-.figure figcaption{
-    text-align: center;
-    color:#65B1AD;
-    font-weight: bold;
-}
-
-a, a:active{
-    text-decoration: none;
-}
-
-.form .container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #333636;
-}
-
-.form .main-label{
-    color: #FFF;
-}
-
-.form .main-input{
-    font-size: 20px;
-    width: 50%;
-    border:3px #65B1AD solid;
-    padding-left: 5px;
-    padding-right: 5px;
-    
-}
-
-.form .main-input.-textarea{
-    height: 200px;
-}
-
-
-
-.form .main-button{
-    width: 20%;
-    background-color: #65B1AD;
-    border-radius: 8px;
-    color: #fff;
-    border: 3px #000 solid;
-    padding: 8px;
-    margin: 15px 0 80px 0;
-    font-weight: bold;
-}
-
-footer{
+.main-footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,10 +21,10 @@ footer{
     height: 85px;
 }
 
-footer a{
+.main-footer .footer-link{
     padding-left: 5px; 
 }
 
-footer a:first-child{
+.main-footer .footer-link:first-child{
     padding-left: 0; 
 }

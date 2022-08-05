@@ -1,0 +1,23 @@
+.skill-tec{
+    padding: 0 0 15px 10px;
+    display: flex;
+}
+
+.skill-tec .skill-title{
+    color: #65B1AD;
+}
+
+.skill-tec .skill-icon{
+    width: 56px;
+}
+
+.skill-tec .skill-bar{
+    border: 3px #000 solid;
+    height: 30px;
+    background-color: #FFF;
+    width: 200px;
+}
+
+.skill-tec .skill-bar::-webkit-progress-value{
+    background-color: #65B1AD;
+}

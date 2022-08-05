@@ -4,79 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main-nav.css">
+    <link rel="stylesheet" type="text/css" href="css/main-sobreMim.css">
+    <link rel="stylesheet" type="text/css" href="css/skill-tec.css">
+    <link rel="stylesheet" type="text/css" href="css/main-projetos.css">
+    <link rel="stylesheet" type="text/css" href="css/main-form.css">
     <script src="js/main.js" defer></script>
     <title>Portfólio</title>
 </head>
 <body>
     <header>
-        <nav id="navbar">
-            <div class="container">
-                    <p class="btnSobreMim" href="#">Sobre Mim</p>
-                    <p class="btnContato" href="#">Contato</p>
-                    <p class="btnProjetos" href="#">Projetos</p>
+        <nav class="main-navbar">
+            <div class="nav-container">
+                    <p class="nav-sobreMim" href="#">Sobre Mim</p>
+                    <p class="nav-contato" href="#">Contato</p>
+                    <p class="nav-projetos" href="#">Projetos</p>
             </div>
         </nav>
     </header>
     <main>
-        <section class="sobreMim">
-            <div class="container">
-                <div class="sobre">
-                    <h1 class="titulo">Sobre Mim</h1>
-                    <img class="perfil" src="imgs/IMG_20220115_184845_245.png">
-                    <p>Olá, me chamo Pablo, tenho 23 anos e sou natural de Jales - SP!
+        <section class="main-sobreMim">
+            <div class="sobre-box">
+                <div class="sobre-container">
+                    <h1 class="main-title">Sobre Mim</h1>
+                    <img class="sobre-perfil" src="imgs/IMG_20220115_184845_245.png">
+                    <p class="main-paragraph">Olá, me chamo Pablo, tenho 23 anos e sou natural de Jales - SP!
                         Estou estudando HTML, CSS e JavaScript, e desejo me tornar um desenvolvedor WEB 
                         na área do front-end.
-
-                        
                     </p>
                 </div>
-                <div class="skills">
-                    <h1 class="titulo">Skills</h1>
-
+                <div class="main-skills">
+                    <h1 class="main-title">Skills</h1>
                     <article class="skill-tec">
-                            <img  class="icon" src="imgs/4202122_social media_social_logo_html5_icon.svg">
+                            <img  class="skill-icon" src="imgs/4202122_social media_social_logo_html5_icon.svg">
                             <div>
-                                <h3 class="title">HTML</h3>
-                                <progress class="bar" max="100" value="50">40%</progress>
+                                <h3 class="skill-title">HTML</h3>
+                                <progress class="skill-bar" max="100" value="50">40%</progress>
                             </div>
                     </article>
                     <article class="skill-tec">
-                        <img  class="icon" src="imgs/4202020_css3_html_logo_social_social media_icon.svg">
+                        <img  class="skill-icon" src="imgs/4202020_css3_html_logo_social_social media_icon.svg">
                         <div>
-                            <h3 class="title">CSS</h3>
-                            <progress class="bar" max="100" value="40">40%</progress>
+                            <h3 class="skill-title">CSS</h3>
+                            <progress class="skill-bar" max="100" value="40">40%</progress>
                         </div>
                 </article>
                 <article class="skill-tec">
-                    <img  class="icon" src="imgs/4373213_js_logo_logos_icon.svg">
+                    <img  class="skill-icon" src="imgs/4373213_js_logo_logos_icon.svg">
                     <div>
-                        <h3 class="title">JavaScript</h3>
-                        <progress class="bar" max="100" value="20">40%</progress>
+                        <h3 class="skill-title">JavaScript</h3>
+                        <progress class="skill-bar" max="100" value="20">40%</progress>
                     </div>
-            </article>
+                </article>
                 </div>
             </div>
         </section>
-        <section class="projetos">
-            <div class="container">
-                <div class="projeto">
-                    <h1 class="titulo">Projetos</h1>
+        <section class="main-projetos">
+            <div class="projetos-box">
+                <div class="projeto-container">
+                    <h1 class="main-title">Projetos</h1>
                     <div class="wrapper-card">
-                        <a href="https://pablofdd.github.io/portfolio/">
-                            <figure class="figure">
-                                <img src="imgs/4288584_and_business_finance_personal_portfolio_icon.svg" class="logo" alt="icone de um portfólio">
+                        <a class="projetos-link" href="https://pablofdd.github.io/portfolio/">
+                            <figure class="projetos-figure">
+                                <img src="imgs/4288584_and_business_finance_personal_portfolio_icon.svg" class="projeto-logo" alt="icone de um portfólio">
                                 <figcaption>Portfólio</figcaption>
                             </figure>
                         </a>
-                        <a href="https://github.com/PabloFDD/TodoList" target="_blank">
-                            <figure class="figure">
-                                <img src="imgs/6071809_list_planing_planlist_to do_to do list_icon.svg" class="logo" alt="icone de um todoList">
+                        <a class="projetos-link" href="https://github.com/PabloFDD/TodoList" target="_blank">
+                            <figure class="projetos-figure">
+                                <img src="imgs/6071809_list_planing_planlist_to do_to do list_icon.svg" class="projeto-logo" alt="icone de um todoList">
                                 <figcaption>To do List</figcaption>
                             </figure>
                         </a>
-                        <a href="https://github.com/PabloFDD/second-challenge" target="_blank">
-                            <figure class="figure">
-                                <img src="imgs/4096576_page_web_icon.svg" class="logo" alt="icone de uma landing page">
+                        <a class="projetos-link" href="https://github.com/PabloFDD/second-challenge" target="_blank">
+                            <figure class="projetos-figure">
+                                <img src="imgs/4096576_page_web_icon.svg" class="projeto-logo" alt="icone de uma landing page">
                                 <figcaption>Landing Page</figcaption>
                             </figure>
                         </a>
@@ -84,9 +87,9 @@
                 </div>
             </div>
         </section>
-        <form class="form">
-            <div class="container">
-                <h1 class="titulo">Contato</h1>
+        <form class="main-form">
+            <div class="form-container">
+                <h1 class="main-title">Contato</h1>
                 <label class="main-label" for="name">Nome:</label>
                 <input class="main-input" type="text" id="name" name="name"><br><br>
                 <label class="main-label" for="lname">Email:</label>
@@ -97,10 +100,10 @@
             </div>
         </form>
     </main>
-    <footer>
-        <a href="https://twitter.com/pablodelboni"><img src="imgs/104461_twitter_icon.svg" width="56px"></a>
-        <a href="https://github.com/PabloFDD"><img src="imgs/211904_social_github_icon.svg" width="56px"></a>
-        <a href="https://www.linkedin.com/in/pablo-felipe-delboni-dornele-91803214a/"><img  width="56px" src="imgs/5279114_linkedin_network_social network_linkedin logo_icon.svg"></a>
+    <footer class="main-footer">
+        <a class="footer-link" href="https://twitter.com/pablodelboni"><img src="imgs/104461_twitter_icon.svg" width="56px"></a>
+        <a class="footer-link" href="https://github.com/PabloFDD"><img src="imgs/211904_social_github_icon.svg" width="56px"></a>
+        <a class="footer-link" href="https://www.linkedin.com/in/pablo-felipe-delboni-dornele-91803214a/"><img  width="56px" src="imgs/5279114_linkedin_network_social network_linkedin logo_icon.svg"></a>
     </footer>
 </body>
 </html>

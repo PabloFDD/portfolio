@@ -1,0 +1,27 @@
+.main-sobreMim .sobre-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    clear: left;
+}
+
+.main-sobreMim .sobre-perfil{
+    width: 20%;
+    border: 3px #65B1AD solid;
+    border-radius: 8px;
+    float: left;
+    margin: 0 10px 10px 10px;
+}
+.main-sobreMim .sobre-container{
+    width: 800px;
+    border-right: 3px #65B1AD solid;
+    background-color: #333636;
+    border-radius: 8px 0 0 8px;
+    justify-content: center;
+}
+
+.main-sobreMim .main-skills{
+    width: 400px;
+    background-color: #333636;
+    border-radius: 0 8px 8px 0;
+}

@@ -1,0 +1,35 @@
+.main-projetos .projetos-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 85px;
+    
+}
+
+.main-projetos .projeto-container{
+    width: 1200px;
+    height: 350px;
+    background-color: #333636;
+    border-radius: 8px;
+    
+}
+
+.main-projetos .wrapper-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projetos-box .projeto-logo{
+    width: 150px;
+    border-radius: 8px;
+}
+
+.projetos-figure figcaption{
+    text-align: center;
+    color:#65B1AD;
+    font-weight: bold;
+}
+
+.projetos-link, .projetos-link:active{
+    text-decoration: none;
+}
