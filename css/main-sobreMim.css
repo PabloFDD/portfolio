@@ -6,15 +6,16 @@
 }
 
 .main-sobreMim .sobre-perfil{
-    width: 20%;
-    border: 3px #65B1AD solid;
-    border-radius: 8px;
+    width: 15%;
+    border: 3px lightblue solid;
+    border-radius: 50px;
     float: left;
     margin: 0 10px 10px 10px;
 }
+
 .main-sobreMim .sobre-container{
-    width: 800px;
-    border-right: 3px #65B1AD solid;
+    width: 1000px;
+    border-right: 3px lightblue solid;
     background-color: #333636;
     border-radius: 8px 0 0 8px;
     justify-content: center;
@@ -24,4 +25,29 @@
     width: 400px;
     background-color: #333636;
     border-radius: 0 8px 8px 0;
+}
+
+.button-top{
+    outline: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+}
+
+.button-top.active{
+    opacity: 1;
+    visibility: visible;
 }

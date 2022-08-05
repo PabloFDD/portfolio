@@ -3,15 +3,13 @@
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 85px;
-    
 }
 
 .main-projetos .projeto-container{
-    width: 1200px;
+    width: 1400px;
     height: 350px;
     background-color: #333636;
     border-radius: 8px;
-    
 }
 
 .main-projetos .wrapper-card{
@@ -24,9 +22,9 @@
     border-radius: 8px;
 }
 
-.projetos-figure figcaption{
+.projetos-figure .figure-caption{
     text-align: center;
-    color:#65B1AD;
+    color: lightblue;
     font-weight: bold;
 }
 

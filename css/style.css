@@ -1,15 +1,16 @@
 .main-title{
     text-align: center;
-    color: #65B1AD;
+    color: lightblue;
     padding-bottom: 15px;
     font-size: 40px;
     
 }
 
 .main-paragraph{
-    color: #65B1AD;
+    color: lightblue;
     text-align: justify;
     padding: 0 10px;
+    letter-spacing: 3px;
     font-size: 19px;
 }
 
@@ -17,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #65B1AD;
+    background-color: lightblue;
     height: 85px;
 }
 
@@ -27,4 +28,12 @@
 
 .main-footer .footer-link:first-child{
     padding-left: 0; 
+}
+
+.main-footer .footer-img{
+    width: 55px;
+}
+
+.main-footer .footer-img.-less{
+    width: 50px;
 }

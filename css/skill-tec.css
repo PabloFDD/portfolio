@@ -4,7 +4,7 @@
 }
 
 .skill-tec .skill-title{
-    color: #65B1AD;
+    color: lightblue;
 }
 
 .skill-tec .skill-icon{
@@ -15,9 +15,9 @@
     border: 3px #000 solid;
     height: 30px;
     background-color: #FFF;
-    width: 200px;
+    width: 300px;
 }
 
 .skill-tec .skill-bar::-webkit-progress-value{
-    background-color: #65B1AD;
+    background-color: lightblue;
 }
