@@ -1,0 +1,42 @@
+.main-welcome .welcome-box{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: url(/imgs/pexels-neo-2653362.jpg);
+}
+
+.console-container {
+    font-family:Khula;
+    font-size:4em;
+    text-align:center;
+    height:200px;
+    width:100%;
+    display:block;
+    position:absolute;
+    color:#fff;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+  }
+  
+.main-welcome .welcome-container .welcome-contato, .welcome-projetos, .welcome-sobreMim{
+    margin: 0 8px;
+    height: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    color: lightblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.welcome-contato, .welcome-projetos, .welcome-sobreMim{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+ 
+  
