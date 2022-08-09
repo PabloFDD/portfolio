@@ -1,13 +1,11 @@
 .main-projetos .projetos-box{
-    display: flex;
-    justify-content: center;
     padding-top: 80px;
     padding-bottom: 85px;
 }
 
 .main-projetos .projeto-container{
-    width: 1400px;
-    height: 350px;
+    width: 100%;
+    height: 500px;
     background-color: #333636;
     border-radius: 8px;
 }
@@ -15,6 +13,7 @@
 .main-projetos .wrapper-card{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .projetos-box .projeto-logo{
