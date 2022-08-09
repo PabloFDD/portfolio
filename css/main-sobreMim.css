@@ -26,3 +26,52 @@
     background-color: #333636;
     border-radius: 0 8px 8px 0;
 }
+
+@media only screen and (max-width: 1024px){
+    .main-sobreMim .sobre-perfil{
+        width: 20%;
+        border: 3px lightblue solid;
+        border-radius: 15px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .main-sobreMim .sobre-perfil{
+        margin-top: 20px;
+        width: 20%;
+        height: 60%;
+    }
+    .main-sobreMim .main-skills{
+        width: 250px;
+    }
+  }
+
+@media only screen and (max-width: 425px){
+    .main-sobreMim .sobre-perfil{
+        position: relative;
+        float: none;
+        left: 33%;
+        height: 35%;
+        width: 30%;
+    }
+    .main-sobreMim .main-skills{
+        width: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .main-sobreMim .sobre-container{
+        border-right: none;
+    }
+  }
+
+@media only screen and (max-width: 320px){
+    .main-sobreMim .sobre-perfil{
+        margin: 0 0 5px 0;
+        height: 30%;
+    }
+}

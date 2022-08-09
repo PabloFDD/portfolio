@@ -35,3 +35,21 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 425px){
+    .main-form .main-input{
+        font-size: 18px;
+        width: 70%;
+    }
+
+    .main-form .main-button{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .main-form .main-button{
+        margin-bottom: 30px;
+
+    }
+}

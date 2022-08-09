@@ -21,3 +21,28 @@
 .skill-tec .skill-bar::-webkit-progress-value{
     background-color: lightblue;
 }
+
+@media only screen and (max-width: 768px){
+    .skill-tec .skill-title{
+        font-size: 15px;
+    }
+
+    .skill-tec .skill-icon{
+        width: 45px;
+        padding-right: 5px;
+    }
+
+    .skill-tec .skill-bar{
+        width: 130px;
+    }
+    .skill-tec .skill-icon{
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .skill-tec .skill-bar, .skill-tec .skill-icon, .skill-tec .skill-title, .skill-tec{
+        visibility: hidden;
+        overflow: hidden;
+    }
+}

@@ -30,3 +30,33 @@
 .projetos-link, .projetos-link:active{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px){
+    .projetos-box .projeto-logo{
+        width: 130px;
+    }
+
+    .main-projetos .projeto-container{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .projetos-box .projeto-logo{
+        width: 100px;
+    }
+
+    .main-projetos .projeto-container{
+        height: 375px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .projetos-box .projeto-logo{
+        width: 100px;
+    }
+
+    .main-projetos .projeto-container{
+        height: 375px;
+    }
+}
