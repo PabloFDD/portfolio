@@ -10,14 +10,14 @@
     <link rel="stylesheet" type="text/css" href="css/main-projetos.css">
     <link rel="stylesheet" type="text/css" href="css/main-form.css">
     <link rel="stylesheet" type="text/css" href="css/main-welcome.css">
-    <script src="js/main.js" defer></script>
     <title>Portfólio</title>
 </head>
 <body>
     <main>
         <section class="main-welcome" id="section1">
             <div class="welcome-box">
-                <div class='console-container'><span id='text'></span></div>
+                <span class='welcome-title'>Olá, seja bem vindo ao meu portfólio!</span>
+                <span class='welcome-title2'>Feito por: Pablo Delboni.</span>
                 <div class="welcome-container">
                         <a class="welcome-sobreMim" href="#section2">Sobre Mim</a>
                         <a class="welcome-projetos" href="#section3">Projetos</a>
@@ -30,36 +30,37 @@
             <div class="sobre-box">
                 <div class="sobre-container">
                     <h1 class="main-title">Sobre Mim</h1>
-                    <img class="sobre-perfil" src="imgs/perfil.png">
+                    <img class="sobre-perfil" src="imgs/perfil.png" alt="my picture">
                     <p class="main-paragraph">Meu nome é Pablo, tenho 23 anos e sou natural de Jales - SP!
                         Tive meu primeiro contato com a programação quando entrei na Fatec, no segundo semestre de 2018 onde iniciei o curso
                         de Análise e Desenvolvimento de Sistemas. Infelizmente não cheguei a terminar, pois surgiu uma oportunidade
                         de emprego e resolvi ir trabalhar.
-                        Entretanto resolvi voltar para essa área, atualmente estou estudando HTML, CSS e JavaScript, e desejo me tornar um desenvolvedor WEB 
+                        Entretanto, com um "empurrãozinho" de um amigo meu resolvi entrar de corpo e alma nesse mundo novamente, 
+                        atualmente estou estudando HTML, CSS e JavaScript e desejo me tornar um desenvolvedor WEB 
                         na área do front-end.
                     </p>
                 </div>
                 <div class="main-skills">
                     <h1 class="main-title">Skills</h1>
                     <article class="skill-tec">
-                            <img  class="skill-icon" src="imgs/html5-icon.svg">
+                            <img  class="skill-icon" src="imgs/html5-icon.svg" alt="html5 icon">
                             <div>
                                 <h3 class="skill-title">HTML</h3>
                                 <progress class="skill-bar" max="100" value="40">40%</progress>
                             </div>
                     </article>
                     <article class="skill-tec">
-                        <img  class="skill-icon" src="imgs/css3-icon.svg">
+                        <img  class="skill-icon" src="imgs/css3-icon.svg" alt="css3 icon">
                         <div>
                             <h3 class="skill-title">CSS</h3>
                             <progress class="skill-bar" max="100" value="30">30%</progress>
                         </div>
                 </article>
                 <article class="skill-tec">
-                    <img  class="skill-icon" src="imgs/js-icon.svg">
+                    <img  class="skill-icon" src="imgs/js-icon.svg" alt="js icon">
                     <div>
                         <h3 class="skill-title">JavaScript</h3>
-                        <progress class="skill-bar" max="100" value="10">10%</progress>
+                        <progress class="skill-bar" max="100" value="20">20%</progress>
                     </div>
                 </article>
                 </div>
@@ -89,6 +90,26 @@
                             </figure>
                         </a>
                     </div>
+                    <div class="wrapper-card">
+                        <a class="projetos-link" href="#">
+                            <figure class="projetos-figure">
+                                <img src="imgs/coming-soon.png" class="projeto-logo" alt="coming soon icon">
+                                <figcaption class="figure-caption">Em breve</figcaption>
+                            </figure>
+                        </a>
+                        <a class="projetos-link" href="#">
+                            <figure class="projetos-figure">
+                                <img src="imgs/coming-soon.png" class="projeto-logo" alt="coming soon icon">
+                                <figcaption class="figure-caption">Em breve</figcaption>
+                            </figure>
+                        </a>
+                        <a class="projetos-link" href="#">
+                            <figure class="projetos-figure">
+                                <img src="imgs/coming-soon.png" class="projeto-logo" alt="coming soon icon">
+                                <figcaption class="figure-caption">Em breve</figcaption>
+                            </figure>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -106,9 +127,11 @@
         </form>
     </main>
     <footer class="main-footer">
-        <a class="footer-link" href="https://twitter.com/pablodelboni"><img class="footer-img" src="imgs/twitter-icon.svg"></a>
-        <a class="footer-link" href="https://github.com/PabloFDD"><img class="footer-img" src="imgs/github-icon.svg"></a>
-        <a class="footer-link" href="https://www.linkedin.com/in/pablo-delboni-91803214a/"><img class="footer-img -less" src="imgs/linkedin-icon.svg"></a>
+        <a class="footer-link" alt="twitter logo" href="https://twitter.com/pablodelboni"><img class="footer-img" src="imgs/twitter-icon.svg"></a>
+        <a class="footer-link" alt="github logo" href="https://github.com/PabloFDD"><img class="footer-img" src="imgs/github-icon.svg"></a>
+        <a class="footer-link" alt="linkedin logo" href="https://www.linkedin.com/in/pablo-delboni-91803214a/"><img class="footer-img -less" src="imgs/linkedin-icon.svg"></a>
     </footer>
+    <script src="js/main.js"></script>
+    <script src="js/button-top.js"></script>
 </body>
 </html>
