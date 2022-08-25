@@ -27,6 +27,16 @@
     border-radius: 0 8px 8px 0;
 }
 
+@media only screen and (max-width: 1440px){
+    .main-sobreMim .sobre-perfil{
+        width: 12%;
+        border: 3px lightblue solid;
+        border-radius: 15px;
+        float: left;
+        margin: 30px 10px 0 10px;
+    }
+}
+
 @media only screen and (max-width: 1024px){
     .main-sobreMim .sobre-perfil{
         width: 20%;
