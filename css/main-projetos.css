@@ -19,11 +19,19 @@
 .projetos-box .projeto-logo{
     width: 150px;
     border-radius: 8px;
+    box-shadow: 3px 1px 10px 7px lightblue;
+}
+
+.projetos-box .projeto-logo:hover{
+    width: 155px;
+    background-color: lightblue;
+    transition: ease-in-out 2s;
 }
 
 .projetos-figure .figure-caption{
+    margin-top: 5px;
     text-align: center;
-    color: lightblue;
+    color: whitesmoke;
     font-weight: bold;
 }
 
